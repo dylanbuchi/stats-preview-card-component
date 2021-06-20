@@ -17,10 +17,6 @@
     /* Slightly transparent white (stats headings): */
     --stats-headings-primary: hsla(0, 0%, 100%, 0.6);
 }
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
 
 /* my CSS */
 .container {
@@ -32,8 +28,8 @@
 }
 /* article text */
 .main-text {
-    width: 327px;
-    height: 750px;
+    width: 20.4375rem;
+    height: 45rem;
     margin-bottom: 5rem;
     color: var(--main-heading-and-stats-primary);
     background: var(--card-background-primary);
@@ -49,15 +45,18 @@
 .img-filter {
     filter: sepia(1) saturate(4) brightness(0.5) hue-rotate(222deg);
 }
+
 .header-image {
     max-width: 100%;
     height: auto;
-    margin-bottom: 1.875rem;
+    margin-bottom: 1rem;
 }
 
 .text-container {
-    margin-top: 3rem;
+    margin-top: 2.8rem;
+    margin-bottom: 3rem;
     line-height: 0.5;
+    color: var(--stats-headings-primary);
 }
 
 .stats {
@@ -65,10 +64,28 @@
     line-height: 0;
 }
 
+.stats-label {
+    color: var(--stats-headings-primary);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 0.55rem;
+    letter-spacing: 1px;
+}
+
+.stats-value {
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin-bottom: 1.25rem;
+}
+.stats:not(:last-child) {
+    margin-bottom: 2.0625rem;
+}
+
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-    line-height: 0;
+    font-size: 1.7rem;
+    margin: 0.67rem 0;
+    line-height: 0.4rem;
+    font-weight: bold;
 }
 /* normalize CSS */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -96,6 +113,8 @@ body {
     font-size: 0.9375rem;
     font-size: 100%;
     height: 100vh;
+
+    font-family: 'Inter', sans-serif;
 }
 
 /**
