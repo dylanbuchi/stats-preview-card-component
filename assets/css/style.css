@@ -34,6 +34,7 @@
 .main-text {
     width: 327px;
     height: 786px;
+    margin-bottom: 5rem;
     color: var(--main-heading-and-stats-primary);
     background: var(--card-background-primary);
 }
