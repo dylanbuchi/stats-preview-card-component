@@ -28,12 +28,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 5rem 0;
+    margin: 5rem 1.2rem;
 }
 /* article text */
 .main-text {
     width: 327px;
-    height: 786px;
+    height: 750px;
     margin-bottom: 5rem;
     color: var(--main-heading-and-stats-primary);
     background: var(--card-background-primary);
