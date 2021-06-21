@@ -61,8 +61,7 @@ body {
         margin-bottom: 5rem;
         color: var(--main-heading-and-stats-primary);
         background: var(--card-background-primary);
-        min-width: 282px;
-        min-height: 812px;
+        min-width: 270px;
     }
 
     .header-image {
