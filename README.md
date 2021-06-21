@@ -37,7 +37,7 @@
 ---
 ### Links
 
--   Solution URL: [Frontend Mentor](https://your-solution-url.com)
+-   Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-with-html5-and-css3-vf1tKkN7B)
 -   Live Site URL: [Github Pages](https://dylanbuchi.github.io/stats-preview-card-component/)
 ---
 ### Tools
