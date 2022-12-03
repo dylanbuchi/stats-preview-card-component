@@ -47,5 +47,5 @@
 ---
 ## Author
 
--   Website - [Dylan Buchi](https://dylanbuchi.pythonanywhere.com/)
+-   Website - [Dylan Buchi](https://dylanbuchi.com/)
 -   Twitter - [@dylanbuchi](https://www.twitter.com/dylanbuchi)
